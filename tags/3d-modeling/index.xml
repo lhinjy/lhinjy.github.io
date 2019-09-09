@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D Modeling on Jiayin</title>
+    <link>/tags/3d-modeling/</link>
+    <description>Recent content in 3D Modeling on Jiayin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/tags/3d-modeling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Chimecho and Flying Cat</title>
+      <link>/cgv/chimecho-cat/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/cgv/chimecho-cat/</guid>
+      <description>The models are pieced together by individual shapes. Individual components are created through their parametric equations.
+
+Chimecho FShape { geometry FGeometry { definition &amp;quot;function frep(x,y,z,t){ head = 0.4^2 - (x)^2 - (y)^2 - z^2; top = 1 - (x/0.25)^2 - ((y-0.6)/0.1)^2 - (z/0.15)^2; bodyline = min( 1 -(z/0.05)^2 -(x/0.05)^2, min(0.5-y,y+1.5)); tail = min((((z+0.6)/0.8)^2 - (x/0.5)^2 - ((y+0.075)/0.5)^2),-0.1-z); topbody = max((max(max(head,top),bodyline)),tail); conebelow =min((((y+0.5)/1)^2 -(x/1)^2 - (z/0.4)^2),-y-0.5); rectangle = min( min (min(x+0.</description>
+    </item>
+    
+  </channel>
+</rss>
